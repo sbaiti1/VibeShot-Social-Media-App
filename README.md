@@ -1,6 +1,7 @@
 # VibeShot
 
-![MacBook Pro 14_ - 1(1)](https://user-images.githubusercontent.com/91995474/211073948-0ba6a8b4-4dab-4ada-90cf-015278fc3e19.png)
+
+![MacBook Pro 14_ - 1(2)](https://user-images.githubusercontent.com/91995474/211523508-f92330f4-f155-4a86-b40e-ed94f4d10f22.png)
 
 
 

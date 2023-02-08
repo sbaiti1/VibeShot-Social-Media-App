@@ -36,7 +36,7 @@ export default function SideNav() {
               <ListItemIcon>
                 <HomeIcon style={{color :'#fff'}} />
               </ListItemIcon>
-              <ListItemText className='listItemText' primary="Inbox" />
+              <ListItemText className='listItemText' primary="Home" />
             </ListItemButton>
           </ListItem>
 

@@ -15,6 +15,7 @@ text-fill-color: transparent;
 
 }
 .list{
+    margin-top: 1rem;
     position: relative;
     height: 100vh;
     display: flex;
@@ -22,7 +23,7 @@ text-fill-color: transparent;
    
 }
 .listItem{
-    margin: .5rem 0;
+    margin: .7rem 0;
 }
 .listItemText{
     color: #fff;
@@ -30,7 +31,12 @@ text-fill-color: transparent;
 
 .sideNav{
     height: 100vh;
-    border-right: 1px solid rgba(110, 118, 125, 0.5);;
+    border-right: 1px solid rgba(110, 118, 125, 0.5);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
 }
 
 .navIcon{

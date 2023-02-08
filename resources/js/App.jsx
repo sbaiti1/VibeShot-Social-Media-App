@@ -3,6 +3,7 @@ import '../css/app.css'
 import Divider from '@mui/material/Divider';
 import { Box } from "@mui/system";
 import AddPost from "./components/addPost";
+import Post from "./components/post";
 export default function App(){
 
     return(
@@ -11,6 +12,7 @@ export default function App(){
              
              <Box className='home'>
                 <AddPost/>
+                <Post />
              </Box>
                      
         </div>

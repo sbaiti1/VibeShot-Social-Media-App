@@ -3,6 +3,10 @@
     color: #fff;
 }
 
+body{
+    background-color: #000;
+}
+
 .app{
     height: 100vh;
     background-color: #000;
@@ -11,39 +15,29 @@
 
 
 .home{
-    margin: 4rem 4rem;
+    margin: 4rem 5rem;
 }
-.addContainer{
-    width: 500px;
-    height: 95px;
-    left: 363px;
-    top: 109px;
 
-    background: #171B1F;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
+.media{
+    height: 350px;
+    width: 230px;
+    border-radius: 15px;
+    background-image: url("../../public/images/media1.png");
+}
+
+.home{
+    position: relative;
+    margin-left: 300px;
+}
+
+.subheader{
     
-    
-}
-.userProfile{
-    padding: 1.5rem 2rem;
-}
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+letter-spacing: 0.08em;
 
-.textField{
-    background: transparent;
-    border: 0;
-    outline: 0;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    color: #64748B;
-}
-
-.icons{
-    display: flex;
-    align-items: center;
-    margin-top:10px;
-    gap: 15px;
+color: #F1F5F9;
 }

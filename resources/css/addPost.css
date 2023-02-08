@@ -1,0 +1,34 @@
+.addContainer{
+    width: 550px;
+    height: 100px;
+    left: 363px;
+    top: 109px;
+
+    background: #171B1F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.userProfile{
+    padding: 1.5rem 2rem;
+}
+
+.textField{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #64748B;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    gap: 15px;
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    color: #fff;
+}
+
+.app{
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+}
+.logo{
+    font-weight: 400;
+font-size: 1.5rem;
+line-height: 37px;
+
+/* identical to box height */
+letter-spacing: 0.08em;
+
+background: linear-gradient(90deg, #38B6FF 4.55%, #FFFFFF 40.19%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+
+.listItemText{
+    color: #fff;
+}
+
+.sideNav{
+    height: 100vh;
+    border-right: 1px solid rgba(110, 118, 125, 0.5);;
+}
+
+.navIcon{
+    color : #fff
+}
+
+.last{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0 1rem;
+}
+
+.home{
+    margin: 4rem 4rem;
+}
+.addContainer{
+    width: 500px;
+    height: 95px;
+    left: 363px;
+    top: 109px;
+
+    background: #171B1F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.userProfile{
+    padding: 1.5rem 2rem;
+}
+
+.textField{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #64748B;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+    gap: 15px;
+}

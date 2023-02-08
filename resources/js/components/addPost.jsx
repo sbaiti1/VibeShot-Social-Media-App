@@ -3,6 +3,7 @@ import { Avatar } from '@mui/material';
 import GifIcon from '@mui/icons-material/Gif';
 import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import MoodIcon from '@mui/icons-material/Mood';
+import { pink } from '@mui/material/colors';
 export default function AddPost(){
 
     return(
@@ -16,10 +17,10 @@ export default function AddPost(){
                 <form action="">
                     <input className="textField" type="text" placeholder="share your vibe !" />
                     <div className="icons">
-                        <InsertPhotoIcon/>
-                        <GifIcon/>
-                        <MoodIcon/>
-                        <MoodIcon/>
+                        <InsertPhotoIcon fontSize="small"/>
+                        <GifIcon  fontSize="small"/>
+                        <MoodIcon fontSize="small"/>
+                        <MoodIcon fontSize="small" sx={{ color: pink[500] }} />
                     </div>
                 </form>
             </div>

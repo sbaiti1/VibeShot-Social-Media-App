@@ -1,3 +1,4 @@
+import '../../css/sideNav.css'
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import List from '@mui/material/List';
@@ -14,6 +15,9 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import { Avatar } from '@mui/material';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import Typography from '@mui/material';
+import SvgIcon from '@mui/material/SvgIcon';
+import logo from '../../../public/icons/VibeShot.svg'
+import userImage from '../../../public/images/user.png'
 export default function SideNav() {
   
   return (
@@ -21,12 +25,13 @@ export default function SideNav() {
 
       <nav aria-label="main mailbox folders">
         <List className='list'>
-          <ListItem>
-          <ListItemText className='logo' primary="Vibeshot" />
-
+        
+          <ListItem sx={{marginLeft : "1rem"}} className='listItem' >
+            <img src={logo} alt="" />
+          {/* <ListItemText sx={{fontSize : "50px"}} className='logo' primary="Vibeshot" /> */}
           </ListItem>
 
-          <ListItem >
+          <ListItem  className='listItem' >
             <ListItemButton>
               <ListItemIcon>
                 <HomeIcon style={{color :'#fff'}} />
@@ -35,7 +40,7 @@ export default function SideNav() {
             </ListItemButton>
           </ListItem>
 
-          <ListItem >
+          <ListItem className='listItem' >
             <ListItemButton>
               <ListItemIcon>
                 <TagIcon style={{color :'#fff'}} />
@@ -43,9 +48,9 @@ export default function SideNav() {
               <ListItemText className='listItemText' primary="Explore" />
             </ListItemButton>
           </ListItem>
-        </List>
+       
 
-        <ListItem >
+        <ListItem className='listItem'>
             <ListItemButton>
               <ListItemIcon>
                 <NotificationsIcon />
@@ -56,7 +61,7 @@ export default function SideNav() {
 
           
 
-          <ListItem >
+          <ListItem className='listItem'>
             <ListItemButton>
               <ListItemIcon>
                 <BookmarkIcon />
@@ -65,7 +70,7 @@ export default function SideNav() {
             </ListItemButton>
           </ListItem>
 
-          <ListItem >
+          <ListItem className='listItem' >
             <ListItemButton>
               <ListItemIcon>
                 <SettingsIcon />
@@ -73,17 +78,18 @@ export default function SideNav() {
               <ListItemText className='listItemText' primary="Settings" />
             </ListItemButton>
           </ListItem>
-          </nav>
-      <Divider />
 
-      <ListItem className='last' >
+        
+      <ListItem sx={{ mt: 'auto', mx: 1 }} className='last' >
       <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="https://mui.com/static/images/avatar/2.jpg" />
+          {/* <Avatar alt="Cindy Baker" src="https://mui.com/static/images/avatar/2.jpg" /> */}
+          <Avatar alt="Cindy Baker" src={userImage} />
 
         </ListItemAvatar>
         <ListItemText className='listItemText' primary="Youssef king" secondary="@ysf_king" />
       </ListItem>
-     
+      </List>
+      </nav>
     </Box>
   );
 }

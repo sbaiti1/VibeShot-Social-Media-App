@@ -21823,7 +21823,7 @@ var Btn = (0,_mui_material_styles__WEBPACK_IMPORTED_MODULE_3__["default"])(_mui_
   return {
     borderRadius: 50,
     background: 'rgba(71, 85, 105, 0.62)',
-    width: '79px',
+    minWidth: '79px',
     height: ' 25px',
     color: '#D2DBE5',
     textTransform: 'lowercase'
@@ -21841,7 +21841,7 @@ var trendingData = [{
   count: 90
 }, {
   tag: 'healthy_meals',
-  count: 50
+  count: 100
 }, {
   tag: 'fashion',
   count: 70

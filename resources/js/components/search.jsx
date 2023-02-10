@@ -5,8 +5,8 @@ import SearchIcon from '@mui/icons-material/Search';
 export default function Search(){
     return(
        
-        <FormControl 
-        sx={{ m: 1}}
+        <FormControl
+        sx={{ m: 1 , width : '30ch'}}
          variant="outlined">
           <OutlinedInput sx={{color : '#B3BFCF' ,height : '45px' , width: '25ch' , background: 'rgba(100, 116, 139, 0.3)',border : '2px solid #64748B' , borderRadius : 50 }}
             placeholder ='search'

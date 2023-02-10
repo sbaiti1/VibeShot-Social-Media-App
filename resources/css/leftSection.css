@@ -1,0 +1,10 @@
+.leftSection{
+    padding: 1rem 0;
+    height: 100vh;
+    width: 250px;
+    
+    position: fixed;
+    top: 0;
+    right: 5%;
+    overflow-x: hidden;
+}

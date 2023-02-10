@@ -15,14 +15,15 @@ body{
 
 
 .home{
-    margin: 4rem 5rem;
+    margin: 1.7rem 5rem;
+   
 }
 
 .media{
     height: 350px;
     width: 230px;
     border-radius: 15px;
-    background-image: url("../../public/images/media1.png");
+    /* background-image: url("../../public/images/media1.png"); */
 }
 
 .home{

@@ -4,6 +4,8 @@ import Divider from '@mui/material/Divider';
 import { Box } from "@mui/system";
 import AddPost from "./components/addPost";
 import Post from "./components/post";
+import TopNav from "./components/topNav";
+import LeftSection from "./components/leftSide";
 export default function App(){
 
     return(
@@ -11,9 +13,11 @@ export default function App(){
              <SideNav />  
              
              <Box className='home'>
+                <TopNav />
                 <AddPost/>
                 <Post />
              </Box>
+                <LeftSection />
                      
         </div>
     )

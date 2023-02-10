@@ -18,6 +18,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import userImage from '../../../public/images/user2.png'
 import media1 from '../../../public/images/media1.png'
+import media2 from '../../../public/images/media2.jpg'
 import { Box } from '@mui/system';
 
 const ExpandMore = styled((props) => {
@@ -31,7 +32,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function Post() {
+export default function Post(props) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -65,12 +66,13 @@ export default function Post() {
         component="div"
         alt="Paella dish"
         className='media'
-        
+        sx={{backgroundImage : `url(${media1})`}}
       />
-      <CardMedia
+      <CardMedia 
         component="div"
         alt="Paella dish"
         className='media'
+        sx={{backgroundImage : `url(${media2})`}}
         
       />
      </Box>

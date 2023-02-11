@@ -1,24 +1,20 @@
-import SideNav from "./components/sideNav"
+import { BrowserRouter , Link , Routes , Route } from 'react-router-dom';
+import Home from './components/home';
+import Layout from './components/layout';
 import '../css/app.css'
-import Divider from '@mui/material/Divider';
-import { Box } from "@mui/system";
-import AddPost from "./components/addPost";
-import Post from "./components/post";
-import TopNav from "./components/topNav";
-import LeftSection from "./components/leftSide";
-export default function App(){
+import SideNav from './components/sideNav';
 
+export default function App(){
     return(
-        <div className="app">
-             <SideNav />  
-             
-             <Box className='home'>
-                <TopNav />
-                <AddPost/>
-                <Post />
-             </Box>
-                <LeftSection />
-                     
-        </div>
+        <BrowserRouter>
+            <SideNav />
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/explore' element={<Layout title='explore' />} />
+                <Route path='/notifications' element={<Layout title='notifications'  />} />
+                <Route path='/bookmarks' element={<Layout title='bookmarks' />} />
+                <Route path='/settings' element={<Layout title='settings' />} />
+            </Routes>
+        </BrowserRouter>
     )
 }

@@ -18,6 +18,13 @@ import Typography from '@mui/material';
 import SvgIcon from '@mui/material/SvgIcon';
 import logo from '../../../public/icons/VibeShot.svg'
 import userImage from '../../../public/images/user.png'
+import { Link} from 'react-router-dom';
+import styled from 'styled-components';
+
+const AppLink = styled(Link)(()=>({
+  color : '#fff' , 
+  textDecoration :'none' 
+}))
 export default function SideNav() {
   
   return (
@@ -36,7 +43,7 @@ export default function SideNav() {
               <ListItemIcon>
                 <HomeIcon style={{color :'#fff'}} />
               </ListItemIcon>
-              <ListItemText className='listItemText' primary="Home" />
+              <ListItemText className='listItemText' primary={<AppLink to='/'>Home</AppLink>} />
             </ListItemButton>
           </ListItem>
 
@@ -45,7 +52,7 @@ export default function SideNav() {
               <ListItemIcon>
                 <TagIcon style={{color :'#fff'}} />
               </ListItemIcon>
-              <ListItemText className='listItemText' primary="Explore" />
+              <ListItemText className='listItemText' primary={<AppLink to='/explore'>Explore</AppLink>} />
             </ListItemButton>
           </ListItem>
        
@@ -55,7 +62,7 @@ export default function SideNav() {
               <ListItemIcon>
                 <NotificationsIcon />
               </ListItemIcon>
-              <ListItemText className='listItemText' primary="Notifications" />
+              <ListItemText className='listItemText' primary={<AppLink to='/notifications'>Notifications</AppLink>} />
             </ListItemButton>
           </ListItem>
 
@@ -66,7 +73,7 @@ export default function SideNav() {
               <ListItemIcon>
                 <BookmarkIcon />
               </ListItemIcon>
-              <ListItemText className='listItemText' primary="Bookmarks" />
+              <ListItemText className='listItemText' primary={<AppLink to='/bookmarks'>Bookmarks</AppLink>} />
             </ListItemButton>
           </ListItem>
 
@@ -75,7 +82,7 @@ export default function SideNav() {
               <ListItemIcon>
                 <SettingsIcon />
               </ListItemIcon>
-              <ListItemText className='listItemText' primary="Settings" />
+              <ListItemText className='listItemText' primary={<AppLink to='/settings'>Settings</AppLink>}/>
             </ListItemButton>
           </ListItem>
 
@@ -90,6 +97,7 @@ export default function SideNav() {
       </ListItem>
       </List>
       </nav>
+      
     </Box>
   );
 }

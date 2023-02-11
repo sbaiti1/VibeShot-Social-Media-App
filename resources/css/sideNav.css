@@ -1,3 +1,30 @@
+/*this file will be deleted asap no need for it anymore*/
+
+/*Container styles*/
+.sideNav{
+    height: 100vh;
+    border-right: 1px solid rgba(110, 118, 125, 0.5);
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+/*navigation*/
+.list{
+    margin-top: 1rem;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+.listItem{
+    margin: .7rem 0;
+}
+
+/*logo styles*/
 .logo{
     font-weight: 400;
 font-size: 5rem;
@@ -14,35 +41,11 @@ text-fill-color: transparent;
 
 
 }
-.list{
-    margin-top: 1rem;
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-   
-}
-.listItem{
-    margin: .7rem 0;
-}
 
 
-.sideNav{
-    height: 100vh;
-    border-right: 1px solid rgba(110, 118, 125, 0.5);
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-}
 
+
+/*icons colors*/
 .navIcon{
     color : #fff
 }
-
-/* .last{
-    margin-top: auto;
-    margin-bottom: 0.5em;
-    
-} */

@@ -26485,8 +26485,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
 var AppLink = (0,styled_components__WEBPACK_IMPORTED_MODULE_5__["default"])(react_router_dom__WEBPACK_IMPORTED_MODULE_6__.Link)(function () {
   return {
     color: '#fff',
@@ -26600,8 +26598,13 @@ function SideNav() {
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_mui_material_ListItemText__WEBPACK_IMPORTED_MODULE_13__["default"], {
             className: "listItemText",
-            primary: "Youssef king",
-            secondary: "@ysf_king"
+            primary: "Rohana Qrtiz",
+            secondary: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("span", {
+              style: {
+                color: '#6E767D'
+              },
+              children: "@roahana"
+            })
           })]
         })]
       })
@@ -26681,11 +26684,23 @@ function Suggestions() {
           spacing: 1,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], {
             src: _public_images_Ellipse_8_png__WEBPACK_IMPORTED_MODULE_0__["default"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+            spacing: -1,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+              sx: {
+                fontWeight: 600,
+                letterSpacing: '1px'
+              },
               variant: "div",
               children: "Ahlam Noaman"
-            })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+              sx: {
+                color: '#818D9E',
+                paddingTop: '5px'
+              },
+              variant: "div",
+              children: "@ahlam"
+            })]
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(FollowBtn, {
           children: "follow"
@@ -26696,11 +26711,23 @@ function Suggestions() {
           spacing: 1,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], {
             src: _public_images_Ellipse_8_png__WEBPACK_IMPORTED_MODULE_0__["default"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+            spacing: -1,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+              sx: {
+                fontWeight: 600,
+                letterSpacing: '1px'
+              },
               variant: "div",
               children: "Ahlam Noaman"
-            })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+              sx: {
+                color: '#818D9E',
+                paddingTop: '5px'
+              },
+              variant: "div",
+              children: "@ahlam"
+            })]
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(FollowBtn, {
           children: "follow"
@@ -26711,11 +26738,23 @@ function Suggestions() {
           spacing: 1,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_7__["default"], {
             src: _public_images_Ellipse_8_png__WEBPACK_IMPORTED_MODULE_0__["default"]
-          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_mui_material__WEBPACK_IMPORTED_MODULE_6__["default"], {
+            spacing: -1,
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+              sx: {
+                fontWeight: 600,
+                letterSpacing: '1px'
+              },
               variant: "div",
               children: "Ahlam Noaman"
-            })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_mui_material__WEBPACK_IMPORTED_MODULE_5__["default"], {
+              sx: {
+                color: '#818D9E',
+                paddingTop: '5px'
+              },
+              variant: "div",
+              children: "@ahlam"
+            })]
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(FollowBtn, {
           children: "follow"
@@ -32248,7 +32287,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".logo{\n    font-weight: 400;\nfont-size: 5rem;\nline-height: 37px;\n\n/* identical to box height */\nletter-spacing: 0.08em;\n\nbackground: linear-gradient(90deg, #38B6FF 4.55%, #FFFFFF 40.19%);\n-webkit-background-clip: text;\n-webkit-text-fill-color: transparent;\nbackground-clip: text;\ntext-fill-color: transparent;\n\n\n}\n.list{\n    margin-top: 1rem;\n    position: relative;\n    height: 100vh;\n    display: flex;\n    flex-direction: column;\n   \n}\n.listItem{\n    margin: .7rem 0;\n}\n.listItemText{\n    color: #fff;\n}\n\n.sideNav{\n    height: 100vh;\n    border-right: 1px solid rgba(110, 118, 125, 0.5);\n    position: fixed;\n    z-index: 1;\n    top: 0;\n    left: 0;\n    overflow-x: hidden;\n}\n\n.navIcon{\n    color : #fff\n}\n\n/* .last{\n    margin-top: auto;\n    margin-bottom: 0.5em;\n    \n} */", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".logo{\n    font-weight: 400;\nfont-size: 5rem;\nline-height: 37px;\n\n/* identical to box height */\nletter-spacing: 0.08em;\n\nbackground: linear-gradient(90deg, #38B6FF 4.55%, #FFFFFF 40.19%);\n-webkit-background-clip: text;\n-webkit-text-fill-color: transparent;\nbackground-clip: text;\ntext-fill-color: transparent;\n\n\n}\n.list{\n    margin-top: 1rem;\n    position: relative;\n    height: 100vh;\n    display: flex;\n    flex-direction: column;\n   \n}\n.listItem{\n    margin: .7rem 0;\n}\n\n\n.sideNav{\n    height: 100vh;\n    border-right: 1px solid rgba(110, 118, 125, 0.5);\n    position: fixed;\n    z-index: 1;\n    top: 0;\n    left: 0;\n    overflow-x: hidden;\n}\n\n.navIcon{\n    color : #fff\n}\n\n/* .last{\n    margin-top: auto;\n    margin-bottom: 0.5em;\n    \n} */", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

@@ -14,8 +14,6 @@ import SettingsIcon from '@mui/icons-material/Settings';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import { Avatar } from '@mui/material';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Typography from '@mui/material';
-import SvgIcon from '@mui/material/SvgIcon';
 import logo from '../../../public/icons/VibeShot.svg'
 import userImage from '../../../public/images/user.png'
 import { Link} from 'react-router-dom';
@@ -93,7 +91,7 @@ export default function SideNav() {
           <Avatar alt="Cindy Baker" src={userImage} />
 
         </ListItemAvatar>
-        <ListItemText className='listItemText' primary="Youssef king" secondary="@ysf_king" />
+        <ListItemText className='listItemText' primary="Rohana Qrtiz" secondary={<span style={{color : '#6E767D'}}>@roahana</span>} />
       </ListItem>
       </List>
       </nav>

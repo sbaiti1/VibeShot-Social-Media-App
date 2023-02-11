@@ -37,10 +37,11 @@ export default function Suggestions(){
                     <Item>
                         <Stack direction='row' spacing={1}>
                             <Avatar src={userImage} />
-                            <div>
-                            <Typography variant="div" >Ahlam Noaman</Typography>
-   
-                            </div>
+                            <Stack spacing={-1}>
+                            <Typography sx={{fontWeight : 600 , letterSpacing: '1px'}} variant="div" >Ahlam Noaman</Typography>
+                            <Typography sx={{color : '#818D9E' , paddingTop : '5px'}} variant="div" >@ahlam</Typography>
+
+                            </Stack>
                         </Stack>
                         <FollowBtn>follow</FollowBtn>
                     </Item>
@@ -48,23 +49,26 @@ export default function Suggestions(){
                     <Item>
                         <Stack direction='row' spacing={1}>
                             <Avatar src={userImage} />
-                            <div>
-                            <Typography variant="div" >Ahlam Noaman</Typography>
-   
-                            </div>
+                            <Stack spacing={-1}>
+                            <Typography sx={{fontWeight : 600 , letterSpacing: '1px'}} variant="div" >Ahlam Noaman</Typography>
+                            <Typography sx={{color : '#818D9E' , paddingTop : '5px'}} variant="div" >@ahlam</Typography>
+
+                            </Stack>
                         </Stack>
                         <FollowBtn>follow</FollowBtn>
                     </Item>
                     <Item>
                         <Stack direction='row' spacing={1}>
                             <Avatar src={userImage} />
-                            <div>
-                            <Typography variant="div" >Ahlam Noaman</Typography>
-   
-                            </div>
+                            <Stack spacing={-1}>
+                            <Typography sx={{fontWeight : 600 , letterSpacing: '1px'}} variant="div" >Ahlam Noaman</Typography>
+                            <Typography sx={{color : '#818D9E' , paddingTop : '5px'}} variant="div" >@ahlam</Typography>
+
+                            </Stack>
                         </Stack>
                         <FollowBtn>follow</FollowBtn>
                     </Item>
+                    
                 </Stack>
         </Container>
     )

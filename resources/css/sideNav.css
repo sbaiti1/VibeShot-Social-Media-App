@@ -25,9 +25,7 @@ text-fill-color: transparent;
 .listItem{
     margin: .7rem 0;
 }
-.listItemText{
-    color: #fff;
-}
+
 
 .sideNav{
     height: 100vh;

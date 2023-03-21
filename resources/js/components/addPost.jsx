@@ -5,6 +5,8 @@ import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
 import MoodIcon from '@mui/icons-material/Mood';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import GifBoxIcon from '@mui/icons-material/GifBox';
+import userImage from '../../../public/images/user.png'
+
 import '../../css/addPost.css'
 
 export default function AddPost(){
@@ -14,7 +16,7 @@ export default function AddPost(){
             <div className='addContainer'>
                 <div className="userProfile">
                
-                <Avatar alt="Cindy Baker" src="https://mui.com/static/images/avatar/2.jpg" />
+                <Avatar alt="Cindy Baker" src={userImage} />
 
                 </div>
                 <form action="">
